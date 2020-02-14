@@ -1,0 +1,47 @@
+/home/user/PFF/CookWithMe
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── actions/
+│   │   ├── reducers/
+│   │   └── components/
+│   │       ├── auth/
+│   │       │   ├── signIn.js
+│   │       │   └── signUp.js
+│   │       ├── ingredients/
+│   │       │   ├── ingredientsList.js
+│   │       │   ├── ingredientCard.js
+│   │       │   └── navAlpha.js
+│   │       ├── recipe/
+│   │       │   ├── recipeCard.js
+│   │       │   ├── recipeUnit.js
+│   │       │   └── recipeForm.js
+│   │       ├── home.js
+│   │       ├── appNavbar.jsa
+│   │       └── search.js
+│   ├── README.md
+│   ├── package.json
+│   ├── package-lock.json
+│   └── .gitignore
+├── config/
+│   └── default.json
+├── middleware/
+│   └── auth.json
+├── models/
+│   ├── item.js
+│   └── users.js
+├── routes/
+│   └── api/
+│       ├── auth.js
+│       ├── login.js
+│       ├── posts.js
+│       ├── profile.js
+│       ├── register.js
+│       └── user.js
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── server.js
