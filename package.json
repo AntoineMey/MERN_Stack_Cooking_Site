@@ -8,6 +8,11 @@
     "server": "nodemon server.js",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
+  "engines": {
+      "node": "12.14.0"
+  },
+
+  
   "author": "Seb J",
   "license": "ISC",
   "dependencies": {
