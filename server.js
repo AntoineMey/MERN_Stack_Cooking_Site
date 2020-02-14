@@ -57,4 +57,22 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+
+//HEROKU DEPLOIEMENT 
+// ... other imports 
+/*
+const path = require("path")
+
+// ... other app.use middleware 
+app.use(express.static(path.join(__dirname, "client", "build")))
+
+// ...
+// Right before your app.listen(), add this:
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
+
+app.listen(...)
+*/
+
 module.exports = app;
