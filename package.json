@@ -9,13 +9,12 @@
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "engines": {
-      "node": "12.14.0"
+    "node": "12.14.0"
   },
-
-  
   "author": "Seb J",
   "license": "ISC",
   "dependencies": {
+    "apidoc": "^0.20.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "concurrently": "^5.1.0",
